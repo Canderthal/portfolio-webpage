@@ -5,53 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <h2 id="name">James King - Wave Defence</h2>
-        <nav>
-            <ul class="nav__links">
-                <li><a href=index.html>Home</a></li>
-                <li><a href=skills.html>Skills</a></li>
-                <li><a href=resume.html>Resume</a></li>
+    <nav class="navbar sticky-top navbar-expand-md">
+        <div class="container-fluid">
+          <a class="navbar-brand col-8" href="#" id="myName">James King</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
-        </nav>
-        <a class="cta" href="contact.html"><button>Contact</button></a>
-    </header>
+          </div>
+        </div>
+      </nav>
     <main>
-        <div class="tower-defence">
-            <div>
-                <h3>Wave Defense - WIP - Python</h3>
-                    <video width="400" controls id="td-video" autoplay muted>
-                        <source src="Video/tower-defence.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </video>
-            </div>
-            <div>
-                <p class="project-para">
-                    Wave defence was a Game Jam challenge that was given to me. 
-                    The features that currently implimented are: Target priority, 
-                    turret selection, enemey varations and a simple cash system used to buy turrets.
-                </p>
-            </div>
-        </div>
-        <div class="wd-update">
+
+
+    <section style="margin-top: 100px" class="project-background">
+        <div class="container-md max-width 75%">
+            <h3>Wave Defense - WIP - Python</h3>
+            <video width="400" controls id="td-video" class="project-video" autoplay muted>
+                <source src="Video/tower-defence.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <p class="project-para">
+                Wave defence was a Game Jam challenge that was given to me. 
+                The features that currently implimented are: Target priority, 
+                turret selection, enemey varations and a simple cash system used to buy turrets.
+            </p>
+
             <h3>Dev Update update date</h3>
                 <ul class="myUL">
-                    <li>* New turrets</li>
-                    <li>* New Sprite for the classic turret</li>
-                    <li>* New enemey sprites</li>
+                    <li> New turrets</li>
+                    <li> New Sprite for the classic turret</li>
+                    <li> New enemey sprites</li>
                 </ul>
-        </div>
-        <div class="wd-update">
+
             <h3>Dev Update update date</h3>
                 <ul class="myUL">
-                    <li>* You can now select what turret prioritize</li>
-                    <li>* Turret indication of target priority</li>
-                    <li>* New enemey sprites</li>
+                    <li> You can now select what turret prioritize</li>
+                    <li> Turret indication of target priority</li>
+                    <li> New enemey sprites</li>
                 </ul>
+            <h3>Dev Update update date</h3>
+                <ul class="myUL">
+                    <li> You can now select what turret prioritize</li>
+                    <li> Turret indication of target priority</li>
+                    <li> New enemey sprites</li>
+                </ul>
+            <h3>Dev Update update date</h3>
+                <ul class="myUL">
+                    <li> You can now select what turret prioritize</li>
+                    <li> Turret indication of target priority</li>
+                    <li> New enemey sprites</li>
+                </ul>
+
+            
+
         </div>
+
+    </section>
+
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
